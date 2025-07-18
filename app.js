@@ -139,3 +139,18 @@ switch (day) {
         break;
 }
 
+
+// 11 merge two Array
+// merge [1,2,3] and [4,5,6,] into a new array without ushing . concat()
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let merged = [];
+
+for (let num of arr1) {
+    merged.push(num);
+}
+for (let num of arr2) {
+    merged.push(num);
+}
+console.log("Merged Array:", merged);
